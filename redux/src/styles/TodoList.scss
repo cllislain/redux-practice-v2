@@ -1,0 +1,18 @@
+@import './variables/Variables.scss';
+
+.displayItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+   
+}
+
+.editBtn{
+    @include buttonStyle($editButton)
+}
+
+.deleteBtn{
+    @include buttonStyle($deleteButton)
+}

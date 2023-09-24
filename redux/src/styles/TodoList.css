@@ -1,0 +1,21 @@
+.displayItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.editBtn {
+  width: 60px;
+  height: auto;
+  background-color: rgb(53, 250, 184);
+  padding: 3px;
+}
+
+.deleteBtn {
+  width: 60px;
+  height: auto;
+  background-color: rgb(255, 65, 65);
+  padding: 3px;
+}/*# sourceMappingURL=TodoList.css.map */

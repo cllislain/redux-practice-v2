@@ -1,0 +1,9 @@
+$loginButton: aquamarine;
+$logoutButton: rgb(255, 127, 127);
+
+@mixin buttonStyle($backgroundColor){
+    width: 60px;
+    height: auto;
+    background-color: $backgroundColor;
+    padding: 3px;
+}

@@ -1,0 +1,32 @@
+@import './variables/Variables.scss';
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
+}
+
+.login{
+    @include buttonStyle($loginButton)
+}
+
+.login:hover{
+    background-color: rgb(17, 255, 176);
+}
+.login:hover:active{
+    background-color: rgb(1, 241, 161);
+}
+
+.logout{
+    @include buttonStyle($logoutButton)
+}
+
+.logout:hover{
+    background-color: rgb(254, 67, 67);
+}
+
+.logout:active{
+    background-color: rgb(255, 35, 35);
+}
